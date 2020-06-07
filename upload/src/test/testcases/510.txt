@@ -1,0 +1,4 @@
+procedure main(); begin
+            putIntLn(100 div 3);
+            putInt(100 mod 3);
+        end

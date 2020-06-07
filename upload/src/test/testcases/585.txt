@@ -1,0 +1,13 @@
+
+        procedure main();
+        var n : integer;
+                    Begin
+                        n:=7 ;
+
+                            while (n>=7) and (n<=9) do begin
+                        with n:integer; do begin
+                            n:=9;
+                            begin putint(n); n:=n+1; end
+                        end n:=n+1; end
+                    end
+        

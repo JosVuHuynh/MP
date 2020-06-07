@@ -1,0 +1,11 @@
+
+        procedure main();
+        var a,b :integer;
+        begin
+            a:=1;
+            b:=2;
+            if a=b then putFloat(1);
+            else putFloat(a/b);
+            putFloat(1);
+        end
+        

@@ -1,0 +1,9 @@
+
+        procedure main();
+        var i,n :integer;
+        begin
+            n:=10;
+            putStringln("so le < 10 la:");
+            for i:=0 to n do if not (i mod 2 = 0) then begin putint(i); putString(" "); end
+        end
+        

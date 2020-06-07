@@ -1,0 +1,10 @@
+
+        procedure main();
+        var a ,b: integer;
+        begin
+            for a:=10 downto 1 do
+                if a < 5 then break;
+                else putint(a);
+        end
+        
+        

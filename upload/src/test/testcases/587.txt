@@ -1,0 +1,14 @@
+
+        function gt(i : integer): integer;
+        begin
+            if i <= 1 then return 1;
+            else
+            retuRn i*gt(i-1);
+        end
+        procedure main();
+        var a:integer;
+                    Begin
+                        a:=10;
+                        putint(gt(a));
+                    end
+        

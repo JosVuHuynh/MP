@@ -1,0 +1,24 @@
+
+        procedure notmain(i : integer);
+        begin
+            putIntln(i);
+        end
+        procedure main();
+                    var a,b,c,d : integer;
+                    Begin
+                        a:=2;
+                        b:=2;
+                        if (a=b) then 
+                        begin
+                            a:=b*100 div 8;
+                            notMain(a);
+                            notMain(b);
+                        end
+                        else begin 
+                            a:=b;
+                            c:=d:=1;
+                            notMain(a);
+                            notMain(c);
+                        end
+                    end
+        

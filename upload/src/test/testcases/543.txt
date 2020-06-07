@@ -1,0 +1,20 @@
+
+        
+        procedure main();
+        var a ,b: integer;
+        begin
+            a:=2;
+            b:=4;
+            with a:boolean ;c:boolean; do
+            begin
+                a:=true;
+                c:=false;
+                putbool(a and then c);
+                putbool(c and then a);
+                putbool(c or else a);
+                putbool(a or else c);
+            end
+            putInt(A);
+        end
+        
+        

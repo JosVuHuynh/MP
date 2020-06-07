@@ -1,0 +1,12 @@
+
+        procedure main();
+                Begin
+                    with a,b:integer; do
+                    begin
+                        b:=2;
+                        a:=b+5;
+                        putint(a);
+                        putint(A+b);
+                    end
+                end
+        

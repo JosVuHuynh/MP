@@ -1,0 +1,9 @@
+
+        procedure main();
+        var a ,b: integer;
+        begin
+            if 1 < 2 then putInt(0);
+            putInt(1);
+        end
+        
+        

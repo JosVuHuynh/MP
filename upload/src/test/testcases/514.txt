@@ -1,0 +1,5 @@
+procedure main(); begin
+            putBool((1.0 > 2.0 ) or (2.0 > 1.0));
+            putBool((1.0 >= 1.0 ) or (2 > 1));
+            putBool(false or (tRue and false));
+        end

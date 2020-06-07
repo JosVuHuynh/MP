@@ -1,0 +1,13 @@
+
+        
+        procedure main();
+        var 
+        r : reAl;
+        a : integer;
+        begin
+            a:=-2;
+            r := 1;
+            putFloat(--r);
+            putInt(-a);
+            putInt(-----1);
+        end

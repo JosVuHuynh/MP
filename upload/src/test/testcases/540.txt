@@ -1,0 +1,12 @@
+
+        
+        procedure main();
+        begin
+            with a:integer ; do
+            begin
+                a:=1;
+                putInt(a + 1);
+            end
+        end
+        
+        

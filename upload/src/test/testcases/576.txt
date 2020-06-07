@@ -1,0 +1,12 @@
+
+        function foo(a,b:real;c:boolean):boolean;
+                    Begin
+                        return (A>=b) and c;
+                    end
+        procedure main();
+                    Begin
+                        putBool(foo(1+1,1.0+0.1,true));
+                        putBool(foo(1+1,1.0+0.1,not true));
+                        return;
+                    end
+        

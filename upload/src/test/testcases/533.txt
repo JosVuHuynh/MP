@@ -1,0 +1,15 @@
+
+        var a , b: booLEAN;
+        r : reAl;
+        procedure main();
+        
+        begin
+            a := (1 > 0) or true;
+            b := a;
+            r := 1;
+            putBool(a);
+            putbool(b);
+            putBOOL(a and b);
+            putbool(a or b);
+            putbool((r = 1) and b);
+        end

@@ -1,0 +1,11 @@
+
+        var i : real;
+            n: integer;
+        procedure main();
+                    Begin
+                        n:=40;
+                        i:=1;
+                        while i<n do i := i+ I;
+                        putFloatln(i);
+                    end
+        

@@ -1,0 +1,15 @@
+
+        procedure main();
+                    var a,b : integer;
+                    Begin
+                        a:=b:=1;
+                        if (a=b) then begin
+                            a:=a+1;
+                            b:=b+1;
+                        end
+                        else a:=b;
+                        putint(a);
+                        putint(b);
+                    end
+        
+        

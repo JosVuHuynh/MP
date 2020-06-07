@@ -1,0 +1,15 @@
+
+        
+        procedure main();
+        var a : integer;
+        begin
+            a:=2;
+            with a:integer ; do
+            begin
+                a:=1;
+                putInt(a);
+            end
+            putInt(A);
+        end
+        
+        

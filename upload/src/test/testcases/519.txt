@@ -1,0 +1,10 @@
+
+        var a , b: integer;
+        
+        procedure main();
+        var x,y : integer;
+        b : boolean;
+        begin
+            putINT(1);
+            
+        end

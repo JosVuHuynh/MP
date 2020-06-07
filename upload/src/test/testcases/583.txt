@@ -1,0 +1,7 @@
+
+        procedure main();
+                    Begin
+                        with i,b:integer; do 
+                        for i:= 7 to 9 do putint(i);
+                    end
+        

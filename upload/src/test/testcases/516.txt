@@ -1,0 +1,10 @@
+
+        function notMain() : integer;
+        begin
+            putInt(12);
+            return 1;
+        end
+        procedure main(); begin
+            putINT(notMain());
+            
+        end

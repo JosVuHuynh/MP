@@ -1,0 +1,13 @@
+
+        procedure main();
+        var i:integer;
+                    Begin
+                    for i:= 2 to 3 do
+                        with a,b:integer; do 
+                        begin
+                            b:=i;
+                            a:=b*b;
+                            putint(a);
+                        end
+                    end
+        

@@ -1,0 +1,14 @@
+
+        procedure main();
+        var i,n:integer;
+                    Begin
+                        i:=0;
+                        n:=10;
+                        while i<=n do 
+                        begin 
+                            if i mod 2 = 0 then
+                            putInt(i);
+                            i := i+1;
+                        end
+                    end
+        

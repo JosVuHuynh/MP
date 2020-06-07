@@ -1,0 +1,11 @@
+
+        procedure main();
+        begin
+            putInt(12);
+            notmain();
+        end
+        procedure notmain();
+        begin
+            putInt(12);
+        end
+        

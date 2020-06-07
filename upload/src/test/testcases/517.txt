@@ -1,0 +1,6 @@
+
+        var a : integer;
+        procedure main(); begin
+            putINT(1);
+            
+        end

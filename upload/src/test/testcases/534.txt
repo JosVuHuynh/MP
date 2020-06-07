@@ -1,0 +1,11 @@
+
+        var 
+        r : reAl;
+        procedure main();
+        
+        begin
+            
+            r := 1;
+            putFloat(-r);
+            
+        end

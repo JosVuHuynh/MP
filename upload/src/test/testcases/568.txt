@@ -1,0 +1,14 @@
+
+        procedure notmain(i,j : integer);
+        begin
+            putint(i*j);
+        end
+        procedure main();
+        var i,n : integer;
+                    Begin
+                        n:=-3;
+                        for i := 1 downto n do begin
+                            notmain(i,i);
+                        end
+                    end
+        

@@ -1,0 +1,12 @@
+
+        procedure main();
+                    Begin
+                        with a,b:integer; do
+                        begin
+                            b:=1080;
+                            a:=b mOD 1000;
+                            if true then
+                            putint(a);
+                        end
+                    end
+        

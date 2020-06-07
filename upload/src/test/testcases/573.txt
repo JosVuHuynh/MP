@@ -1,0 +1,15 @@
+
+        procedure main();
+        var n,m,i : integer;
+                Begin
+                    n:=3;
+                    m:=1;
+                    for i := -n to -m do begin
+                        if (i>-2) then begin
+                        putint(-i);
+                        brEak;
+                        end
+                        else begin putint(i);ConTiNue; end
+                    EnD
+                end
+        

@@ -1,0 +1,14 @@
+
+        
+        procedure main();
+        var 
+        b : boolean;
+        a : integer;
+        begin
+            a:=-2;
+            b := false;
+            putBool(not b);
+            putBool( -a >= 2 );
+            putBool(not not not not b);
+            putBool( not not (-a >= 2) );
+        end

@@ -1,0 +1,14 @@
+
+        function cv(a,b : real):real;
+        begin
+            return a+a+b+b;
+        end
+        procedure main();
+        var a,b :real;
+        begin
+            a:=12;
+            b:=0.01;
+            putString("cv hcn la: ");
+            putFloat(cv(a,b));
+        end
+        

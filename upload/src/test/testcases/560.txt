@@ -1,0 +1,19 @@
+
+        procedure notmain(i : integer);
+        begin
+            putIntln(i);
+        end
+        procedure main();
+                    var a,b,c,d : integer;
+                    Begin
+                        a:=2;
+                        b:=1;
+                        if (a=b) then notMain(2);
+                        else begin 
+                            a:=b;
+                            c:=d:=1;
+                            notMain(a);
+                            notMain(c);
+                        end
+                    end
+        

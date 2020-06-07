@@ -1,0 +1,16 @@
+
+        Function tbc(n:integer):real;
+        var sum :integer;
+        begin
+            sum:=0;
+            with i:integer; do
+            for i:= 0 to n do sum := sum + i;
+            return sum/n; 
+        end
+        procedure main();
+        var a,b :real;
+        begin
+            
+            putFloat(tbc(10));
+        end
+        

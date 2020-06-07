@@ -1,0 +1,8 @@
+
+        procedure main();
+        var a : integer;
+            Begin
+            a:=4;           
+                while a<5 do if a>3 then begin putint(4); a:=10;end else putint(123);
+            end
+        

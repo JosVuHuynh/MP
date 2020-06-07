@@ -1,0 +1,11 @@
+
+        procedure main();
+                    var a : Boolean ;
+                    Begin
+                        a := trUe;
+                        if true then
+                        if false then a:=true;
+                        else a:=NoT True;
+                        putBoolLn(a);
+                    end
+        

@@ -1,0 +1,15 @@
+
+        Function UCLN(a,b:integer):integer;
+        begin
+            if a mod b = 0 then return b;
+            else return UCLN(b,(a mod b));
+        end
+        procedure main();
+        var a,b :integer;
+        begin
+            a:=123;
+            b:=321;
+            
+            putINT(UCLN(b,a));
+        end
+        

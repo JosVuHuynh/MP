@@ -1,0 +1,7 @@
+
+        procedure main();
+                    Begin
+                        begin
+                        end
+                    end
+        

@@ -1,0 +1,17 @@
+
+        Function sum(n:integer):integer;
+        var sum :integer;
+        begin
+            sum:=0;
+            with i:integer; do
+            for i:= 0 to n do sum := sum + i;
+            return sum; 
+        end
+        procedure main();
+        var a :integer;
+        begin
+            a:=123;
+            
+            putINT(SUM(a));
+        end
+        

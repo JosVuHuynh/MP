@@ -1,0 +1,8 @@
+
+        procedure main();
+                    Begin
+                    if true then 
+                        with a_:string;a,b:integer; do putint(1);
+                    else with _a:string;a,b:integer; do putint(2);
+                    end
+        

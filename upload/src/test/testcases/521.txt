@@ -1,0 +1,16 @@
+
+        var a , b: integer;
+        procedure notMain( d : integer);
+        var e : integer;
+        begin
+            putFloat(9.9);
+        end
+        procedure main();
+        var x,y : integer;
+        b : boolean;
+        z : real;
+        begin
+            x := 1;
+            notMAIN(x);
+            putINT(x);
+        end

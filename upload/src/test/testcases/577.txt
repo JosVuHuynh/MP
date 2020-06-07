@@ -1,0 +1,14 @@
+
+        function foo(a,b:real;c:boolean):real;
+                    Begin
+                        if c then
+                        return (A - b);
+                        else return a+B;
+                    end
+        procedure main();
+                    Begin
+                        putFloat(foo(1+1,1.0+0.1,true));
+                        putFloat(foo(1+1,1.0+0.1,not true));
+                        return;
+                    end
+        

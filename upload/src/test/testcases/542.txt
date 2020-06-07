@@ -1,0 +1,18 @@
+
+        
+        procedure main();
+        var a ,b: integer;
+        begin
+            a:=2;
+            b:=4;
+            with a:integer ;c:real; do
+            begin
+                a:=1;
+                c:=b;
+                putInt(a);
+                putFloat(c + a);
+            end
+            putInt(A);
+        end
+        
+        

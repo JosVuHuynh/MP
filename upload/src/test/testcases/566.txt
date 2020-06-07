@@ -1,0 +1,13 @@
+
+        procedure main();
+        var a,b:real;
+            Begin
+                a:=1;
+                b:=2;
+                if a>b then 
+                    while a<5 do a:=a+1;
+                else while b<5 do b:=b+1;
+                putFloat(a);
+                putFloat(b);
+            end
+        

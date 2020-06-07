@@ -1,0 +1,13 @@
+
+            procedure main();
+            var a:integer;
+            begin
+                for a := 5 downto 1 do
+                begin
+                    if a = 4 then continue;
+                    putInt(a);
+                end
+                return;
+                putString(" True!!!");
+            end
+        

@@ -1,0 +1,21 @@
+
+        
+        procedure main();
+        begin
+            a:= 3;
+            b:=4;
+            putInt(12);
+            notmain(a,b);
+            notmain2();
+        end
+        procedure notmain(a ,b: integer);
+        begin
+            putInt(a * b);
+        end
+        var
+        a,b:integer;
+        procedure notmain2();
+        begin
+            putInt(12);
+        end
+        

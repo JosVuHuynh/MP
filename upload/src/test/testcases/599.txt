@@ -1,0 +1,10 @@
+
+        procedure main();
+        BEGIN
+            notmain("*********");
+        END
+        procedure notmain(a:string);
+        begin
+            putString(a);
+        end
+        

@@ -1,0 +1,12 @@
+
+        function foo(i : integer):integer;
+                    Begin
+                        if i=0 then return 0;
+                        return foo(i-1) + i;
+                    end
+        procedure main();
+                    Begin
+                        putInt(foo(2+2+2+2+2));
+                        return;
+                    end
+        

@@ -1,0 +1,12 @@
+
+        procedure main();
+        var a,b :real;
+        begin
+            a:=b:=10000.01;
+            if a= 0 then putString("ptvn");
+            else putFloat(-b/a);
+            a:=b:=0;
+            if a= 0 then putString("ptvn");
+            else putFloat(-b/a);
+        end
+        

@@ -1,0 +1,11 @@
+
+        var a , b: integer;
+        r : real;
+        procedure main();
+        
+        begin
+            a := 1;
+            r := 1;
+            putINT(a);
+            putFLOAT(r + a);
+        end

@@ -1,0 +1,10 @@
+
+        procedure main();
+                    Begin
+                        with n:integer; do begin
+                            n:=7 ;
+
+                            while (n>=7) and (n<=9) do begin putint(n); n:=n+1; end
+                        end
+                    end
+        

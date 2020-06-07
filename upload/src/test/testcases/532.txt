@@ -1,0 +1,17 @@
+
+        var a , b: integer;
+        function notMain( d : integer ;e,f :boolean) : boolean;
+        begin
+            putBool(e and f);
+            return d > 1.2;
+        end
+        procedure main();
+        var x,y : integer;
+        b : boolean;
+        z : real;
+        begin
+            x := 1;
+            z := 8.9;
+            b := true;
+            putBool(notMAIN(x,z=1,b));
+        end

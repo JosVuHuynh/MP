@@ -1,0 +1,17 @@
+
+        
+        procedure main();
+        Var 
+            i,j : integer;
+        BEGIN
+              
+            i:=10;
+            FOR j:=1 TO i DO 
+            with i :integer; do
+            begin putString("*");
+            break;
+            end
+            
+            
+        END
+        

@@ -1,0 +1,14 @@
+
+        var n : real;
+        procedure main();
+        var i:integer;
+                    Begin
+                        n:=10.0;
+                        i:=1;
+                        while i<n do 
+                        begin 
+                            putint(i);
+                            i := i+ 1;
+                        end
+                    end
+        
